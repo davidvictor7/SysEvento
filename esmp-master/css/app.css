@@ -1,0 +1,851 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2018, 16:03:50
+    Author     : andersonalves
+*/
+
+/*.openbtn{
+    margin-left: -12px !important;
+    margin-top: -20px !important;
+}*/
+#file{
+    display: none !important;
+}
+
+.deny {
+    background-color: #b21e1e !important;
+}
+
+.upImage, .upImageSystem, .upImagePort, .upImageTeam{
+    min-height: 296px !important;
+    max-height: 280px !important;
+}
+
+.contentImage{
+    min-height: 325px !important;
+}
+
+i.icon.content {
+    font-size: 2em !important;
+}
+.marginlefting {
+    margin-left: 60px !important;
+}
+
+.testeMarginLefting {
+    margin-left: -26px !important;
+}
+
+.marginLeftingResolutionMenor{
+    margin-left: 14% !important;
+}
+
+.displaynone {
+    display: none !important;
+}
+
+.displayblock {
+    display: block !important;
+}
+.ui.left.visible.sidebar,.ui.right.visible.sidebar{
+    -webkit-box-shadow: 0 0 0px rgba(255,255,255,0) !important; 
+    box-shadow: 0 0 0px rgba(255,255,255,0) !important;
+}
+#sibebarMaior{
+    width: 17%;
+}
+
+.sibebarToMenor {
+    width: 60px !important;
+}
+
+.sidebar .item i {
+    font-size: 24px;
+    /*margin-top: -5px !important;*/
+}
+
+.logo {
+    width: 100% !important;
+    height: 48px !important;
+    padding: 15px !important;
+}
+.logo i {
+    cursor: pointer !important;
+    color:white !important;
+    margin-left: -3px !important;
+    float: left !important;
+}
+
+.gb_ac i {
+    cursor: pointer !important;
+    color:white !important;
+    margin-left: 15px !important;
+    float: left !important;
+}
+
+.ui.card, .ui.cards>.card#cardUser {
+    -webkit-box-shadow: none !important;
+}
+
+.logo img {
+    margin-top: -12px !important;
+    float: left;
+    height: 61px !important;
+    width: 88% !important;
+    margin-left: 20px !important;
+    max-width: 76% !important;
+}
+
+.title.item {
+    padding: .92857143em 1.14285714em !important;
+    color:white !important;
+}
+
+.ui.dropdown.item.displaynone.displayblock i{
+    color:white;
+}
+
+.ui.dropdown .icon.active{
+    border-radius: 30px !important;
+    background-color: white;
+    color: #006D44 !important;
+    width: 38px !important;
+    height: 38px !important;
+    line-height: 1.5;
+    margin-left: -5px !important;
+    margin-top: -10px !important;
+    margin-bottom: -9px !important;
+}
+
+.ui.vertical.menu .active.item{
+    width: 100% !important;
+}
+
+.ui.inverted.menu .dropdown.item:hover, .ui.inverted.menu .link.item:hover, .ui.inverted.menu a.item:hover, .ui.link.inverted.menu .item:hover {
+    background: none !important; 
+    color: #fff;
+}
+.ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover {
+    /*background: none !important;*/
+
+}
+.ui.vertical.menu .active.item:hover {
+    /*background-color: white !important;*/
+}
+
+.dropdown .menu .header {
+    padding-top: 3.9px!important;
+    padding-bottom: 3.9px!important;
+}
+.ui.visible.left.overlay.sidebar{
+    background-color: #007e52 !important;
+}
+
+.iconsSidebarFix{
+    margin-top: 35px;
+}
+
+.ui.accordion#accordionSidebar a.item.active{
+    color:gold !important;
+}
+
+.ui.accordion#accordionSidebar a {
+    color:white;
+}
+.ui.accordion#accordionSidebar{
+    font-size: 15px;
+    color: white !important;
+    margin-top: 40px;
+}
+
+.ui.accordion#accordionSidebar i{
+    font-size: 23px !important;
+}
+.ui.accordion#accordionSidebar span{
+    font-size: 17px !important;
+}
+.ui.accordion#accordionSidebar span i{
+    font-size: 18px !important;
+    margin-left: 5% !important;
+    float: right;
+}
+
+.ui.accordion#accordionSidebar .title:not(.ui) {
+    color: white !important;
+    text-align: justify;
+    margin-bottom: 10px !important;
+}
+.ui.accordion#accordionSidebar .title:not(.ui).activeAccordion span {
+    margin-left: 6% !important;
+}
+.ui.accordion#accordionSidebar .content a{
+    padding-left: 26%;
+}
+.title p{
+    margin-left: 15px;
+}
+
+.textSystem{
+    font-size: 28px !important;
+}
+
+.ui.menu .item {
+    position: initial !important;
+}
+.ui.menu.asd.borderless{
+    border-radius: 0!important; 
+    border: 0; 
+    -webkit-transition-duration: 0.1s !important;
+    background-color: #34483F !important;
+    height: 67px;
+}
+.ui.vertical.menu .active.item{
+    background: transparent !important;
+}
+.pusher a{
+    color:white;
+}
+.pContent span {
+    margin-left: 8% !important;
+}
+
+.title p {
+}
+.ui.accordion#accordionSidebar .title:not(.ui).activeAccordion {
+    background: white !important;
+    border-left-style: solid !important;
+    border-left-color: #34483F !important;
+    border-left-width: thick !important;
+    width: 99% !important;
+    border-bottom-right-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    color: #000000a6 !important;
+}
+.teste{
+    margin-left: 180px; 
+}
+.ui.container.containerPrincipal{
+    margin:20px;
+    z-index: 100;
+    width: 85% !important;
+    margin-left: 145px !important;
+    -webkit-transform: translate3d(2.5%,0,0) !important;
+    -moz-transform: translate3d(2.5%,0,0);
+    -o-transform: translate3d(2.5%,0,0);
+    -ms-transform: translate3d(2.5%,0,0);
+    transform: translate3d(2.5%,0,0);      
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+#containerToInformations h1{
+    color:#006D44 !important;
+    /*text-align: center;*/
+}
+#containerToInformations h2{
+    color: rgba(0,0,0,.70) !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500 !important;
+}
+.ui.pointing.dropdown.link.item .menu .header{
+    color:white !important;
+}
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg{
+    width: 2.5em !important;
+    height: 2.4em !important;
+}
+
+#leftMenuToMobile{
+    display: none;
+}
+
+#iconsAndInformationsUser {
+    margin-right: 69px !important;
+}
+
+.iconSibebar{
+    margin-top: 20px;
+    color:white !important;
+}
+
+.iconsAccount{
+    margin-top: 17px;
+    color:white !important;
+}
+.iconsAccount i{
+    cursor: pointer;
+    padding-right: 50px !important;
+}
+.iconsAccount .ui.simple.dropdown.link{
+    padding-right: 40px !important;
+}
+
+.gb_tb{
+    border-color: transparent;
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 8.5px;
+    display: block;
+    position: absolute;
+    left: 6.5px;
+    z-index: 1;
+    height: 0;
+    width: 0;
+    -webkit-animation: gb__a .2s;
+    animation: gb__a .2s;
+    border-bottom-color: #ccc;
+    border-bottom-color: rgba(0,0,0,.2);
+    top: 36px;
+}
+.gb_sb {
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 8.5px;
+    display: block;
+    position: absolute;
+    left: 6.5px;
+    top: 37px;
+    z-index: 1;
+    height: 0;
+    width: 0;
+    -webkit-animation: gb__a .2s;
+    animation: gb__a .2s;
+}
+.divMae{
+    max-height: 439px;
+    height: 596px;
+    background: #fff;
+    /*border: 1px solid #ccc;*/
+    /*border-color: rgba(0,0,0,.2);*/
+    color: #000;
+    /*-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.2);*/
+    box-shadow: 0px 5px 3px rgba(0,0,0,.2);
+    display: none;
+    outline: none;
+    position: absolute;
+    -webkit-animation: gb__a .2s;
+    animation: gb__a .2s;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-user-select: text;
+    z-index: 99 !important;
+    height: auto !important;
+    top: 62px;
+}
+.divMae#system{
+    right: 162px;
+    z-index: 999 !important;
+
+}
+.divMae#notifications{
+    right: 128px;
+    width: 320px;
+    z-index: 999 !important;
+    height: 29% !important;
+    overflow-y: auto;
+
+}
+.divMae#informationsUser{
+    right: 64px;
+    z-index: 999 !important;
+}
+.ulGeral{
+    margin: 0 auto;
+    text-align: center; 
+    white-space: normal;
+    width: 320px;
+}
+.ulGeral#system{
+    min-height: 100px;
+    padding: 28px;
+    padding-right: 21px;
+}
+.ulNotifications{
+    white-space: normal;
+    min-height: 100px;
+    padding: 28px;
+    padding-right: 21px;
+}
+.ui.comments{
+    margin: 6% !important;
+}
+.liGeral{
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    z-index: 999;
+    height: 98px;
+    width: 86px;
+}
+.liGeral#system{
+    padding: 1px;
+}
+.liGeral#notifications{
+    padding: 1px;
+}
+.aGeral {
+    color: rgba(0,0,0,0.87) !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.aGeral {
+    color: rgba(0,0,0,0.87) !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.aGeral .imgSys {
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+}
+.iconsAccount .arrow {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 10px;
+    display: block;
+    height: 0;
+    top: 42px;
+    position: absolute;
+    border-bottom-color: white;
+    border-style: dashed dashed solid;
+}
+
+.iconsAccount .arrow#system {
+    right: 197px;
+}
+
+.iconsAccount .arrow#notifications {
+    right: 142px;
+}
+
+.iconsAccount .arrow#informationsUser {
+    right: 80px;
+    top: 42px;
+}
+.ui.segment.header{
+    margin-top: -.14285714em !important;
+}
+.ui.cards>.card{
+    width: 100% !important;
+}
+@media only screen and (min-width: 500px) and (max-width: 549px) {
+    #sibebarMaior{
+        width: 52%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 499px) {
+    #sibebarMaior{
+        width: 63%;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 449px) {
+    #sibebarMaior{
+        width: 77%;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 349px) {
+    #sibebarMaior{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 175px) and (max-width: 549px) {
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+
+    #leftMenuToMobile{
+        display: block;
+        margin-left: 3%;
+    }
+
+    #iconsAndInformationsUser {
+        margin-right: 18px !important;
+    }
+
+    .teste{
+        margin-left: 0;
+    }
+    .ui.container.containerPrincipal{
+        margin-left: 6% !important;
+    }
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 145px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 91px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 29px;
+        top: 42px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 717px) {
+    #sibebarMaior{
+        width: 48%;
+    }
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+    .teste{
+        margin-left: 49%;
+    }
+    .ui.container.containerPrincipal{
+        margin:20px;
+        z-index: 100;
+        width: 92% !important;
+        margin-left: 0px !important;
+    }
+    #iconsAndInformationsUser {
+        margin-right: 18px !important;
+    }
+    .ui.accordion i {
+        font-size: 17px !important;
+    }
+    .ui.accordion#accordionSidebar span {
+        font-size: 16px !important;
+    }
+    .title p {
+        margin-left: 18px;
+    }
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 145px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 91px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 29px;
+        top: 42px;
+    }
+}
+
+@media only screen and (min-width: 718px) and (max-width: 849px) {
+    #sibebarMaior{
+        width: 36%;
+    }
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+    .teste{
+        margin-left: 37%;
+    }
+    .ui.container.containerPrincipal{
+        margin:20px;
+        z-index: 100;
+        width: 90% !important;
+        margin-left: 0px !important;
+    }
+    #iconsAndInformationsUser {
+        margin-right: 18px !important;
+    }
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 145px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 91px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 29px;
+        top: 42px;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 910px) {
+    #sibebarMaior{
+        width: 36%;
+    }
+    .ui.container.fluid{
+        margin-left: auto important; 
+        margin-right: auto !important; 
+    }
+    .teste {
+        margin-left: 166px;
+    }
+    .ui.container.containerPrincipal{
+        width: 70% !important;
+        margin-left: 164px !important;
+    }
+
+    #iconsAndInformationsUser {
+        margin-right: 18px !important;
+    }
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 145px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 91px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 29px;
+        top: 42px;
+    }
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 909px) and (max-width: 991px) {
+    #sibebarMaior{
+        width: 29%;
+    }
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+    .teste {
+        margin-left: 204px;
+    }
+    .ui.container.containerPrincipal{
+        width: 82.5% !important;
+        margin-left: 96px !important;
+    }
+
+    #iconsAndInformationsUser {
+        margin-right: 18px !important;
+    }
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 145px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 91px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 29px;
+        top: 42px;
+    }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1329px) {
+    #sibebarMaior{
+        width: 28%;
+    }
+    #iconsAndInformationsUser {
+        margin-right: 27px !important;
+    }
+    .teste {
+        margin-left: 284px;
+    }
+    .ui.container.containerPrincipal{
+        width: 82.5% !important;
+        margin-left: 96px !important;
+    }
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 153px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 99px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 36px;
+        top: 42px;
+    }
+
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1329px) and (max-width: 1523px) {
+    #sibebarMaior{
+        width: 22%;
+    }
+
+    .ui.container.containerPrincipal{
+        width: 82.5% !important;
+    }
+
+    .teste {
+        margin-left: 197px;
+    }
+
+    #iconsAndInformationsUser {
+        margin-right: 27px !important;
+    }
+
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 153px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 99px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 36px;
+        top: 42px;
+    }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+
+
+
+    .teste {
+        margin-left: 153px;
+    }
+
+    #iconsAndInformationsUser {
+        margin-right: 27px !important;
+    }
+
+    .ui.container.fluid{
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+    }
+
+    .divMae#system{
+        right: 18px;
+    }
+    .divMae#notifications{
+        right: 18px;
+    }
+    .divMae#informationsUser{
+        right: 18px;
+    }
+
+    .iconsAccount .arrow#system {
+        right: 153px;
+    }
+
+    .iconsAccount .arrow#notifications {
+        right: 99px;
+    }
+
+    .iconsAccount .arrow#informationsUser {
+        right: 36px;
+        top: 42px;
+    }
+}
+
+.gb_ac{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 66px;
+}
+
+.gb_bc {
+    line-height: normal;
+    position: relative;
+    padding-left: 21px;
+}
+
+.gb_me{
+    outline: none;
+}
+
+/*.btAdd{*/
+/*    margin-right: 35.75em !important;*/
+/*}*/
